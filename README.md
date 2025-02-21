@@ -137,7 +137,8 @@ done
    ```
    {"id":4295638,"nodeType":2,"testnet_two_points":3200,"lastUpdated":"2025-02-21T03:01:36.398Z"}
    ```
-   ID= Your node ID
-   testnet_two_points= Your node point
+ID= Your node ID
+
+testnet_two_points= Your node point
    
 7. Done enjoy your cigarete and a cup of coffee
