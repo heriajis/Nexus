@@ -1,7 +1,11 @@
 # Nexus
 The Nexus Layer 1 is a planetary-scale supercomputer, designed to host the world’s commerce.
 
-This is complete guide how to install and run your Nexus Node by **Jinxpro Ngaprek**
+This is complete guide how to install and run your Nexus Node by 
+
+===================
+**Jinxpro Ngaprek**
+===================
 
 ## Requirements
 
