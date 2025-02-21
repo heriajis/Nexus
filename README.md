@@ -13,17 +13,21 @@ This is complete guide how to install and run your Nexus Node by
    screen -S nexus
    ```
     
-3. Install pkg-config libssl-dev
+2. Install pkg-config libssl-dev
    ```
    apt install -y pkg-config libssl-dev
    ```
 
-4. Install protobuf-compiler
+3. Install protobuf-compiler
    ```
    apt install -y protobuf-compiler
    ```
 
-5. Install Cargo
+4. Install Cargo
+   Install Curl
+   ```
+   apt install -y curl
+   ```
    ```
    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
    ```
@@ -31,12 +35,17 @@ This is complete guide how to install and run your Nexus Node by
    ```
    source $HOME/.cargo/env
    ```
-6. Install build-essential
+5. Install build-essential
    ```
    apt install -y build-essential
    ```
-    
-8. Allocate Memory
+
+6. Install git
+   ```
+   apt install -y git
+   ```
+        
+6. Allocate Memory
    ```
    sudo fallocate -l 10G /swapfile && sudo chmod 600 /swapfile && sudo mkswap /swapfile && sudo swapon /swapfile && echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab && sudo sysctl vm.swappiness=100 && echo 'vm.swappiness=100' | sudo tee -a /etc/sysctl.conf
    ```
